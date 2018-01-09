@@ -1,0 +1,24 @@
+{
+	// "shell_cmd": "python -u \"$file\"",
+	"cmd": ["bash", "-c", "/home/lanlin/.pyenv/shims/python -u ${file_name}"],
+
+	// "target": "run_existing_window_command",
+	// "id": "repl_python_run",
+	// "file": "config/Python/Main.sublime-menu",
+
+	"shell": true,
+	"working_dir": "${file_path}",
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	
+	"selector": "source.python",
+
+	"env": {"PYTHONIOENCODING": "utf-8"},
+
+	"variants":
+	[
+		{
+			"name": "Syntax Check",
+			"shell_cmd": "python -m py_compile \"${file}\"",
+		}
+	]
+}

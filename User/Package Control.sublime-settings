@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"http_proxy": "",
+	"https_proxy": "",
+	"proxy_username": "",
+	"proxy_password": "",
+	// "http_proxy": "127.0.0.1:1080",
+	// "https_proxy": "127.0.0.1:1080",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"BracketHighlighter",
+		"IndentToAllBrackets",
+        "LaTeX Word Count",
+		"LaTeX-cwl",
+		"LaTeXSmartQuotes",
+		"LaTeXTools",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeREPL"
+	]
+}

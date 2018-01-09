@@ -1,0 +1,41 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_size_limit": 41943040,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python - string - comment - constant.numeric"
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex"
+		}
+	],
+	"default_line_ending": "unix",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"font_face": "DejaVu Sans Mono",
+	"font_size": 10,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"SublimeREPL",
+		"Vintage",
+		// "IndentToAllBrackets",
+	],
+	"ignored_words":
+	[
+		"vertices"
+	],
+	"auto_indent": true,
+	"smart_indent": true,
+	"indent_to_bracket": false,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"remember_open_files": false,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"spell_check": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

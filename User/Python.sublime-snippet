@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+# -*- coding: utf-8 -*-
+# @Author  : Lin Lan (ryan.linlan@gmail.com)
+
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tmpl</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
